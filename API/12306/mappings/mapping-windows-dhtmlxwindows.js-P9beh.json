@@ -1,0 +1,23 @@
+{
+  "id" : "a88881fc-7645-37e1-a1c2-b88a8d15fc44",
+  "request" : {
+    "url" : "/otn/resources/js/rich/windows/dhtmlxwindows.js",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-windows-dhtmlxwindows.js-P9beh.txt",
+    "headers" : {
+      "Date" : "Sat, 29 Jul 2017 00:50:32 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/javascript;charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Set-Cookie" : [ "JSESSIONID=59F209E945E03B915ED867E1BC816163; Path=/otn", "BIGipServerotn=1911030026.38945.0000; path=/" ],
+      "Last-Modified" : "Fri, 11 Nov 2016 09:03:52 GMT",
+      "X-Cache" : "MISS from cache.51cdn.com",
+      "X-Via" : "1.1 xiongdianxin133:5 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive"
+    }
+  },
+  "uuid" : "a88881fc-7645-37e1-a1c2-b88a8d15fc44"
+}

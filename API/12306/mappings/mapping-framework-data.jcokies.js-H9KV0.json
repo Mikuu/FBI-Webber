@@ -1,0 +1,23 @@
+{
+  "id" : "2fb3a144-dea3-31a5-add0-4744a2956c5b",
+  "request" : {
+    "url" : "/otn/resources/js/framework/data.jcokies.js",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-framework-data.jcokies.js-H9KV0.txt",
+    "headers" : {
+      "Date" : "Sat, 29 Jul 2017 00:50:33 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/javascript;charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Set-Cookie" : [ "JSESSIONID=611FDC6A06023F7649C06F77D6D2F668; Path=/otn", "BIGipServerotn=1172832522.24610.0000; path=/" ],
+      "Last-Modified" : "Sun, 18 Sep 2016 00:31:41 GMT",
+      "X-Cache" : "MISS from cache.51cdn.com",
+      "X-Via" : "1.1 xiongdianxin132:9 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive"
+    }
+  },
+  "uuid" : "2fb3a144-dea3-31a5-add0-4744a2956c5b"
+}

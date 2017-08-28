@@ -1,0 +1,23 @@
+{
+  "id" : "64774c32-364e-3ac9-9f96-fc9e3d143eb9",
+  "request" : {
+    "url" : "/otn/resources/images/bg_return.png",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-images-bg_return.png-n9Uk7.png",
+    "headers" : {
+      "Date" : "Thu, 27 Jul 2017 12:42:16 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "image/png;charset=UTF-8",
+      "Last-Modified" : "Fri, 11 Nov 2016 09:04:18 GMT",
+      "Age" : "1",
+      "X-Cache" : "HIT from cache.51cdn.com",
+      "X-Via" : "1.1 jindianxin42:5 (Cdn Cache Server V2.0), 1.1 xiongdianxin131:0 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive",
+      "Cache-Control" : "max-age=36000"
+    }
+  },
+  "uuid" : "64774c32-364e-3ac9-9f96-fc9e3d143eb9"
+}

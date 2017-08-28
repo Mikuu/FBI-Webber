@@ -1,0 +1,23 @@
+{
+  "id" : "0850dc66-b2e7-36bc-a0a6-bede47eb61a9",
+  "request" : {
+    "url" : "/otn/resources/images/loading.gif",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-images-loading.gif-vpdDE.gif",
+    "headers" : {
+      "Date" : "Thu, 27 Jul 2017 01:01:21 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "image/gif;charset=UTF-8",
+      "Last-Modified" : "Fri, 11 Nov 2016 09:04:18 GMT",
+      "Age" : "1",
+      "X-Cache" : "HIT from cache.51cdn.com",
+      "X-Via" : "1.1 PSbjwjBGP2ir239:2 (Cdn Cache Server V2.0), 1.1 fzh45:4 (Cdn Cache Server V2.0), 1.1 xiongdianxin135:3 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive",
+      "Cache-Control" : "max-age=36000"
+    }
+  },
+  "uuid" : "0850dc66-b2e7-36bc-a0a6-bede47eb61a9"
+}

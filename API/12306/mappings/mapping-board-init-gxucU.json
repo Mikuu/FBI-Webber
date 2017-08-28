@@ -1,0 +1,24 @@
+{
+  "id" : "53f076e0-bc32-316c-9f88-2565053fd019",
+  "request" : {
+    "url" : "/otn/board/init",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-board-init-gxucU.txt",
+    "headers" : {
+      "Date" : "Sat, 29 Jul 2017 00:50:32 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/html;charset=utf-8",
+      "Transfer-Encoding" : "chunked",
+      "Set-Cookie" : [ "route=495c805987d0f5c8c84b14f60212447d; Path=/", "JSESSIONID=35A4A4B66C83984A5BD576B2CC64D10C; Path=/otn", "BIGipServerotn=1257243146.64545.0000; path=/" ],
+      "ct" : "c2_74",
+      "Content-Language" : "zh-CN",
+      "X-Cache" : "MISS from cache.51cdn.com",
+      "X-Via" : "1.1 xiongdianxin134:6 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive"
+    }
+  },
+  "uuid" : "53f076e0-bc32-316c-9f88-2565053fd019"
+}

@@ -1,0 +1,24 @@
+{
+  "id" : "54f3523e-f54c-32b4-994e-ff94fe25c434",
+  "request" : {
+    "url" : "/otn/resources/merged/sidebar_css.css?cssVersion=1.9027",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-merged-sidebar_css.css-9d2ps.txt",
+    "headers" : {
+      "Date" : "Fri, 28 Jul 2017 09:12:26 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/css;charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Last-Modified" : "Wed, 30 Nov 2016 16:58:52 GMT",
+      "Age" : "1",
+      "X-Cache" : "HIT from cache.51cdn.com",
+      "X-Via" : "1.1 gg235:6 (Cdn Cache Server V2.0), 1.1 jindianxin47:3 (Cdn Cache Server V2.0), 1.1 xiongdianxin135:5 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive",
+      "Cache-Control" : "max-age=36000"
+    }
+  },
+  "uuid" : "54f3523e-f54c-32b4-994e-ff94fe25c434"
+}

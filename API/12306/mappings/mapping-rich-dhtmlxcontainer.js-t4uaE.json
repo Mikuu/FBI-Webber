@@ -1,0 +1,22 @@
+{
+  "id" : "13a11eb9-2a7e-3e7f-99b6-03aa13df2628",
+  "request" : {
+    "url" : "/otn/resources/js/rich/dhtmlxcontainer.js",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-rich-dhtmlxcontainer.js-t4uaE.txt",
+    "headers" : {
+      "Date" : "Sat, 29 Jul 2017 00:50:32 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/javascript;charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Last-Modified" : "Sun, 11 Sep 2016 17:11:19 GMT",
+      "X-Cache" : "MISS from cache.51cdn.com",
+      "X-Via" : "1.1 xiongdianxin133:0 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive"
+    }
+  },
+  "uuid" : "13a11eb9-2a7e-3e7f-99b6-03aa13df2628"
+}

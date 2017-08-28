@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="icon" href="/otn/resources/images/ots/favicon.ico;jsessionid=35A4A4B66C83984A5BD576B2CC64D10C" type="image/x-icon" />
+<link rel="shortcut icon" href="/otn/resources/images/ots/favicon.ico;jsessionid=35A4A4B66C83984A5BD576B2CC64D10C" type="image/x-icon" />
+<link href="/otn/resources/merged/sidebar_css.css?cssVersion=1.9027" rel="stylesheet" />
+<script src="/otn/resources/merged/sidebar_js.js?scriptVersion=1.9027" type="text/javascript"></script>
+<script>
+
+/*<![CDATA[*/
+
+ var ctx='/otn/';
+ var global_lang = 'zh_CN';
+ var sessionInit = '';
+ var isMobileCheck = null;
+ var isMember='';
+ 
+ /*]]>*/
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>余票动态信息</title>
+<script type="text/javascript" src="/otn/resources/js/rich/dhtmlxcommon.js" xml:space="preserve"></script>
+<script src="/otn/resources/js/rich/windows/dhtmlxwindows.js" type="text/javascript" xml:space="preserve"></script>
+<script src="/otn/resources/js/rich/dhtmlxcontainer.js" type="text/javascript" xml:space="preserve"></script>
+<script src="/otn/resources/js/rich/message/dhtmlxmessage.js" type="text/javascript" xml:space="preserve"></script>
+<script type="text/javascript" src="/otn/resources/js/framework/data.jcokies.js" xml:space="preserve"></script>
+<style xml:space="preserve">
+.ypxx-box .ypxx-con{
+	width: 100%;
+	border: 1px solid #f3f3f3;
+}
+.ypxx-con th{
+	height: 26px;
+	text-align: left;
+	padding: 0 10px;
+	border: 1px solid #f3f3f3;
+	font-weight: 400;
+	background: #f3f3f3;
+}
+
+.ypxx-con td{
+	height: 26px;
+	text-align: left;
+	padding: 0 10px;
+	border: 1px solid #f3f3f3;
+	font-weight: 400;
+}
+.ypxx-con .num{
+	color: #0080ff;
+	text-align: right;
+}
+.ypxx-con .time{
+	text-align: right;
+}
+
+.ypxx-con a{
+	
+}
+.ypxx-con a:hover{
+	color: #ff5809;
+}
+
+.ypxx-page{
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #f3f3f3;
+	border-top: none;
+	text-align: center;
+}
+.ypxx-page span{
+	color:#f00;
+}
+
+.ypxx-page a{
+	color: #0080ff;
+	margin: 0 10px;
+}
+
+.sel{ 
+	background: #f0f5ff;
+}
+.ypxx-page a:hover{
+	color: #ff5809;
+}
+.ypxx-tips{
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #f3f3f3;
+	border-top: none;
+	text-align: right;
+	color: #f00;
+	padding-right: 10px;
+}
+</style>
+</head>
+<body><div class="ypxx-box"><table class="ypxx-con" id="board_table"><tr><th rowspan="1" colspan="1">出发地</th>
+<th rowspan="1" colspan="1">目的地</th>
+<th class="time" rowspan="1" colspan="1">2月3日</th>
+<th class="time" rowspan="1" colspan="1">2月4日</th>
+<th class="time" rowspan="1" colspan="1">2月5日</th>
+</tr>
+</table>
+<div class="ypxx-page"><a href="javascript:void(0);" class="fr" id="board_gotoMore" shape="rect">查看更多>></a>
+<span id="leftTicketTip">余票数量每小时更新1次</span>
+</div>
+</div>
+</body>
+</html>
+<!-- 定义页面初始化的变量 -->
+<script xml:space="preserve">
+/*<![CDATA[*/
+    var leftTicket_flush_interval = 30;
+    var pageSize = 9;
+    var index_board_data_show_time=10;
+    var request_ajax_check_interval=5;
+
+ /*]]>*/
+</script>
+<script type="text/javascript" src="/otn/resources/merged/board_js.js?scriptVersion=1.9027" xml:space="preserve"></script>

@@ -1,0 +1,23 @@
+{
+  "id" : "f93527d9-610f-3a4a-a826-18510c598d1a",
+  "request" : {
+    "url" : "/otn/resources/js/rich/dhtmlxcommon.js",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-rich-dhtmlxcommon.js-eFuTK.txt",
+    "headers" : {
+      "Date" : "Sat, 29 Jul 2017 00:50:32 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/javascript;charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Set-Cookie" : [ "JSESSIONID=E52B6D519ED4A387E670932D6DEB0C94; Path=/otn", "BIGipServerotn=1943601418.50210.0000; path=/" ],
+      "Last-Modified" : "Sun, 11 Sep 2016 16:27:51 GMT",
+      "X-Cache" : "MISS from cache.51cdn.com",
+      "X-Via" : "1.1 xiongdianxin134:0 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive"
+    }
+  },
+  "uuid" : "f93527d9-610f-3a4a-a826-18510c598d1a"
+}

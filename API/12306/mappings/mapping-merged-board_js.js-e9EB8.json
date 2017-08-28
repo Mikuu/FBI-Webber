@@ -1,0 +1,23 @@
+{
+  "id" : "3ad2d43c-0c18-3fd3-b075-c375ff3c7596",
+  "request" : {
+    "url" : "/otn/resources/merged/board_js.js?scriptVersion=1.9027",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-merged-board_js.js-e9EB8.txt",
+    "headers" : {
+      "Date" : "Sat, 29 Jul 2017 00:50:34 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/javascript;charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Set-Cookie" : [ "JSESSIONID=A3ABC471E652A62794DE2A8FB4CAB197; Path=/otn", "BIGipServerotn=1608057098.50210.0000; path=/" ],
+      "Last-Modified" : "Sun, 11 Sep 2016 16:25:00 GMT",
+      "X-Cache" : "MISS from cache.51cdn.com",
+      "X-Via" : "1.1 xiongdianxin133:8 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive"
+    }
+  },
+  "uuid" : "3ad2d43c-0c18-3fd3-b075-c375ff3c7596"
+}

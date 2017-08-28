@@ -1,0 +1,22 @@
+{
+  "id" : "bebaa4a3-9ece-3bad-8b90-a559f237f86a",
+  "request" : {
+    "url" : "/otn/resources/merged/sidebar_js.js?scriptVersion=1.9027",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-merged-sidebar_js.js-hNFp3.txt",
+    "headers" : {
+      "Date" : "Sat, 29 Jul 2017 00:50:32 GMT",
+      "Server" : "openresty",
+      "Content-Type" : "text/javascript;charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Last-Modified" : "Sun, 11 Sep 2016 17:11:20 GMT",
+      "X-Cache" : "MISS from cache.51cdn.com",
+      "X-Via" : "1.1 xiongdianxin132:0 (Cdn Cache Server V2.0)",
+      "Connection" : "keep-alive"
+    }
+  },
+  "uuid" : "bebaa4a3-9ece-3bad-8b90-a559f237f86a"
+}
