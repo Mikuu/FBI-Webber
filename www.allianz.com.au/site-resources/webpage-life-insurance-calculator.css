@@ -1,0 +1,933 @@
+
+/*!
+ * jQuery UI CSS Framework 1.8.21
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background:black; opacity:.7; filter:alpha(opacity=70); }
+/*!
+ * jQuery UI CSS Framework 1.8.21
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana,Arial,sans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=2191c0&bgTextureHeader=12_gloss_wave.png&bgImgOpacityHeader=75&borderColorHeader=4297d7&fcHeader=eaf5f7&iconColorHeader=d8e7f3&bgColorContent=fcfdfd&bgTextureContent=06_inset_hard.png&bgImgOpacityContent=100&borderColorContent=a6c9e2&fcContent=222222&iconColorContent=0078ae&bgColorDefault=0078ae&bgTextureDefault=02_glass.png&bgImgOpacityDefault=45&borderColorDefault=77d5f7&fcDefault=ffffff&iconColorDefault=e0fdff&bgColorHover=79c9ec&bgTextureHover=02_glass.png&bgImgOpacityHover=75&borderColorHover=448dae&fcHover=026890&iconColorHover=056b93&bgColorActive=6eac2c&bgTextureActive=12_gloss_wave.png&bgImgOpacityActive=50&borderColorActive=acdd4a&fcActive=ffffff&iconColorActive=f5e175&bgColorHighlight=f8da4e&bgTextureHighlight=02_glass.png&bgImgOpacityHighlight=55&borderColorHighlight=fcd113&fcHighlight=915608&iconColorHighlight=f7a50d&bgColorError=e14f1c&bgTextureError=12_gloss_wave.png&bgImgOpacityError=45&borderColorError=cd0a0a&fcError=ffffff&iconColorError=fcd113&bgColorOverlay=aaaaaa&bgTextureOverlay=01_flat.png&bgImgOpacityOverlay=75&opacityOverlay=30&bgColorShadow=999999&bgTextureShadow=01_flat.png&bgImgOpacityShadow=55&opacityShadow=45&thicknessShadow=0px&offsetTopShadow=5px&offsetLeftShadow=5px&cornerRadiusShadow=5px
+ */
+/* Common styles here for desktop and mobile */
+#life-calculator-form {
+	font-size: 14px;
+	color: #333333;
+}
+#life-calculator-form .summary-container {
+	display: none;
+}
+/*
+.life-calculator-page div.img-big h1 {
+	font-size: 36px;
+}
+.life-calculator-page h2 {
+	font-size: 18px;
+}
+.life-calculator-page h2.findOut {
+	color: #000000;
+}
+*/
+#life-calculator-form p.assumptions {
+	font-family: 'AllianzSansRegular';
+	padding-top: 3px;
+}
+#life-calculator-form p.sub-header {
+	font-size: 17px;
+	color: #2699f2;
+}
+/*
+.life-calculator-page div.img-big {
+	height: 140px;
+}
+.life-calculator-page div.life-calculator-banner {
+	background: url(../img/bg/banner-life-calculator.jpg) no-repeat 0 0;
+	height: auto;
+}
+*/
+#life-calculator-form h4,
+.modal-dialog .modal-content .modal-header h4 {
+	font-family: 'AllianzSansRegular';
+	font-size: 18px;
+	color: #004986;
+	font-weight: normal;
+}
+.modal-dialog button.close {
+	top: -25px;
+}
+#life-calculator-form .panel-heading a {
+	text-decoration: none;
+}
+#life-calculator-form #steps .caret {
+	float: right;
+	display: inline-block;
+	margin-top: 9px;
+}
+#life-calculator-form #summary .caret {
+	float: right;
+	display: inline-block;
+	margin-top: 5px;
+}
+#life-calculator-form #steps .collapsed .caret {
+	margin-top: 7px;
+	border-bottom:3px solid transparent;
+	border-left:4px solid #29539d;
+	border-top:4px solid transparent;
+}
+#life-calculator-form #summary .collapsed .caret {
+	margin-top: 2px;
+	border-bottom:3px solid transparent;
+	border-left:4px solid #29539d;
+	border-top:4px solid transparent;
+}
+#life-calculator-form #steps .panel-heading span.show-caret {
+	padding-left: 40px; /*17px;*/
+}
+#life-calculator-form #steps .panel-heading .collapsed span.show-caret {
+	padding-left: 40px;  /*17px;*/
+}
+#life-calculator-form #steps .panel-grey .panel-heading span.assumptions-show {
+	float: right;
+	margin-top: -24px;
+	margin-right: 27px;
+}
+#life-calculator-form #steps .panel-grey .panel-heading span.assumptions-show span.show-caret {
+	padding-left: 3px;
+}
+#life-calculator-form #steps .panel-grey .panel-heading span.assumptions-show .caret {
+	margin-top: 7px;
+}
+#life-calculator-form #steps .panel-grey .panel-heading .collapsed span.assumptions-show .caret {
+	margin-top: 5px;
+}
+#life-calculator-form #steps .panel,
+#life-calculator-form #summary .panel {
+	padding: 11px 26px;
+	margin-bottom: 10px;
+	box-shadow: none;
+}
+#life-calculator-form #steps .panel-heading {
+	border: none;
+}
+#life-calculator-form #steps .panel-heading span {
+	width: 55px;
+	font-size: 12px;
+}
+#life-calculator-form #steps .panel-heading .panel-title {
+	margin-bottom: 4px;
+}
+#life-calculator-form #steps .panel-body {
+	padding: 0 0;
+}
+#life-calculator-form #steps .panel-body label {
+	font-weight: normal;
+	display: inline;
+	display: table-cell;
+}
+#life-calculator-form #steps .panel-body label.pad-extra-left {
+	padding-left: 34px;
+}
+#life-calculator-form #steps .panel-body .row {
+	border-top: 1px dotted #AFAFAF;
+	margin: 0 10px;
+	padding: 10px 0;
+	font-family: Arial, sans-serif;
+}
+#life-calculator-form #steps .panel-body .row .input-group {
+	vertical-align: top;
+}
+#life-calculator-form #steps .panel-body .row  span.help {
+	background-image: url("/images/internet/aalaus/icons/help.png");
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 19px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+/*.life-calculator-page #steps .panel-body .row button.trigger{*/
+#life-calculator-form .panel-body .row button.trigger {
+	background: none;
+	border: none;
+	float: left;
+}
+#life-calculator-form #steps .panel-grey {
+	background-color: #f7f7f7;
+	border: none;
+	padding: 0 0;
+}
+#life-calculator-form #steps .panel-grey .panel-heading {
+	background-color: #f7f7f7;
+}
+#life-calculator-form #steps .panel-grey .panel-heading h4 {
+	color: #666666;
+}
+#life-calculator-form #steps .panel-grey .panel-body p {
+	color: #888888;
+	padding-left: 6px;
+}
+#life-calculator-form #steps .panel-grey .panel-body .row {
+	border-top: none;
+}
+#life-calculator-form #steps .panel-grey .panel-body .rate {
+	border-top: 1px dotted #AFAFAF;
+	border-bottom: 1px solid #dddddd;;
+	padding: 12px 0;
+}
+#life-calculator-form .calculate {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#life-calculator-form .calculate a {
+	margin-top: 30px;
+}
+#life-calculator-form #steps .panel-body button {
+	margin: 0 0;
+	padding: 0 0;
+}
+#life-calculator-form .btn-orange {
+	text-transform: none;
+}
+#life-calculator-form .collapse-content {
+	font-size: 12px !important;
+	font-family: Arial, sans-serif;
+}
+.btn-view {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e7e7e7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e7e7e7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e7e7e7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#e7e7e7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#e7e7e7 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#e7e7e7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e7e7',GradientType=0 );
+	width: 100%;
+	margin-top: 15px;
+}
+#life-calculator-form .collapse-content .glyphicon {
+	right: 3px;
+}
+#life-calculator-form .panel-summary {
+	padding: 15px 30px;
+}
+#life-calculator-form #summary .panel {
+	padding: 0 0;
+	margin: 10px 0;
+}
+#life-calculator-form #summary .panel-heading {
+	background-color: #f0f7fc;
+}
+#life-calculator-form #summary .panel-body {
+	padding: 11px 26px;
+}
+#life-calculator-form #summary .panel-body .row {
+	border-bottom: 1px dotted #AFAFAF;
+	margin: 0 10px;
+	padding: 2px 0;
+	font-family: Arial, sans-serif;
+}
+#life-calculator-form #summary .panel-body .row .input-group {
+	vertical-align: top;
+}
+#life-calculator-form #summary .panel-body .row  span.plus {
+	background-image: url("/images/internet/aalaus/contentimages/plus.png");
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 14px;
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+#life-calculator-form #summary .panel-body .row  span.minus {
+	background-image: url("/images/internet/aalaus/contentimages/minus.png");
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 14px;
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+#life-calculator-form #summary .panel-body label {
+	font-weight: normal;
+	display: inline;
+}
+#life-calculator-form #summary .panel-body .extra {
+	padding: 9px 0;
+}
+#life-calculator-form #summary .panel-body .extra .extra-left-col {
+	padding-left: 3px;
+}
+#life-calculator-form #summary .panel-body span.next-line {
+	display: block;
+	font-size: 12px;
+	padding-left: 20px
+}
+#life-calculator-form #summary .panel-body .row  span.help {
+	background-image: url("/images/internet/aalaus/icons/help.png");
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 19px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#life-calculator-form .panel-summary .panel-heading {
+	padding: 0 0;
+	margin: 0 0;
+}
+#life-calculator-form .panel-summary .panel-heading h4 {
+	padding: 15px 24px;
+}
+#life-calculator-form .panel-summary .panel-heading h5 {
+	padding: 15px 0;
+}
+#life-calculator-form .panel-summary .panel-heading .accordion-toggle .caret {
+	margin: 0 0 4px 5px;
+}
+#life-calculator-form .panel-summary .panel-heading .collapsed .caret {
+	margin: 4px 0 4px 5px;
+}
+#life-calculator-form .panel-summary .panel-heading .col-summary-title {
+	padding-left: 15px;
+	border-right: 1px solid #dddddd;
+}
+#life-calculator-form .panel-summary .panel-heading .col-summary-title .show-title-caret {
+	display: none;
+}
+#life-calculator-form .panel-summary .panel-heading .col-summary-amount h5 {
+	color: #333333;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+#life-calculator-form .panel-summary .panel-heading .col-summary-amount h5 span.show-caret {
+	float: right;
+	margin-right: 40px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #004986;
+	width: 48px;
+}
+#life-calculator-form .panel-summary .panel-heading .col-summary-title h4 {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+#life-calculator-form .panel-summary .panel-heading .col-summary-title h4 span {
+	font-weight: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+#life-calculator-form .panel-summary .panel-heading .col-summary-title p {
+	color: #004986;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	margin: -8px 0 5px 25px;
+}
+#life-calculator-form .panel-summary .panel-body .col-summary-amount-body {
+	padding-left: 20px;
+}
+#life-calculator-form .panel-summary h4.sub-title {
+	margin: 0 0 14px 11px
+}
+#life-calculator-form .all-buttons {
+	margin-top: 14px;
+}
+#life-calculator-form .all-buttons .btn-left-pading {
+	margin-left: 5px;
+}
+#life-calculator-form .all-buttons .btn-recalculate {
+	float: right;
+}
+.modal-dialog {
+	max-width: 890px;
+	width: 100%;
+}
+.modal-dialog .modal-content .price-average {
+	background-color: #f6f6f6;
+	padding: 30px;
+}
+.modal-dialog .modal-content p {
+	color: #666666;
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+.modal-dialog .modal-content p.title {
+	font-size: 16px;
+	font-family: 'AllianzSansRegular';
+	color: #000000;
+	font-weight: bold;
+}
+.modal-dialog .modal-content .graph-image {
+	margin: 34px 0;
+}
+.modal-dialog .modal-content .sources p {
+	font-size: 12px;
+	font-style: italic;
+	padding-bottom: 0px;
+	margin: 0 0;
+}
+.modal-dialog .modal-title {
+	margin-left: 28px;
+}
+.modal-dialog .modal-body {
+	padding: 23px 50px 23px 41px;
+}
+.modal-dialog .modal-content .price-average {
+	margin: 24px 0 28px 0;
+}
+.modal-dialog .modal-content .price-average .table-responsive table {
+	border: 1px solid #dddddd;
+	width: 100%;
+	margin: 9px 0 0 0;
+}
+.modal-dialog .modal-content .price-average .first {
+	margin-top: 9px;
+}
+.modal-dialog .modal-content .price-average .table-responsive table tr.notopbdr {
+	border-top: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive table tr,
+.modal-dialog .modal-content .price-average .table-responsive table tr td {
+	border: 1px solid #dddddd;
+	text-align: center;
+}
+.modal-dialog .modal-content .price-average .table-responsive table tr th {
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.modal-dialog .modal-content .price-average .table-responsive table tr td {
+	font-size: 14px;
+	padding: 5px;
+}
+.modal-dialog .modal-content .price-average .table-responsive table tr td.light {
+	background-color: #ffffff;
+}
+#life-calculator-form .help-title,
+.help-title {
+	color: #333333;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+.modal-dialog .modal-content p.title-small {
+	font-size: 14px;
+	font-family: 'AllianzSansRegular';
+	color: #000000;
+	font-weight: bold;
+}
+.modal-dialog .modal-content .ordered-list {
+	margin-top: 19px;
+}
+.modal-dialog .modal-content .ordered-list li {
+	padding: 6px;
+	font-size: 14px;
+	font-family: 'AllianzSansRegular';
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table {
+	border: none;
+	border-collapse: separate;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .nobrlr {
+	border-left: none;
+	border-right: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .nobrl {
+	border-left: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .nobrr {
+	border-left: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .nobrb {
+	border-bottom: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .nobrt {
+	border-top: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .nobrtb {
+	border-top: none;
+	border-bottom: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .gap {
+	height: 10px;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .gap td {
+	border: none !important;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table td.light {
+	border-left: none !important;
+	border-right: none !important;
+}
+.modal-dialog .modal-content .price-average .table-responsive  .header-row {
+	border: none;
+}
+.modal-dialog .modal-content .price-average .table-responsive  .header-row .first-col {
+	text-align: right;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .header-row th {
+	padding: 10px 5px;
+}
+.modal-dialog .modal-content .price-average .table-responsive .vertical {
+	width: 100px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.modal-dialog .modal-content .price-average .table-responsive .vertical span {
+	font-size: 12px;
+	font-weight: normal;
+}
+.modal-dialog .modal-content  .table-responsive .dark-blue {
+	background-color: #0064cc;
+}
+.modal-dialog .modal-content  .table-responsive .light-blue-table {
+	background-color: #409bdb;
+}
+.modal-dialog .modal-content  .table-responsive .lighter-blue {
+	background-color: #69b6ec;
+}
+.modal-dialog .modal-content  .border-light {
+	border-right: 1px solid #eeeeee;
+}
+.modal-dialog .modal-content .table-responsive .green {
+	background-color: #a4c600;
+}
+.modal-dialog .modal-content .table-responsive .light-blue {
+	background-color: #00a7ca;
+}
+.modal-dialog .modal-content .price-average .weekly-cost .header-row th {
+	padding: 5px;
+}
+.modal-dialog .modal-content .weekly .table-responsive table {
+	border: none;
+}
+.modal-dialog .modal-content .price-average .weekly-cost .header-row th:first-child {
+	border-left: none;
+	border-top: none;
+}
+.modal-dialog .modal-content .price-average .weekly-cost th {
+	text-align: center;
+	color: #ffffff;
+	text-transform: none !important;
+	font-weight: bold;
+	font-size: 14px !important;
+	padding: 8px 5px !important;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr td {
+	text-align: right !important;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr td:first-child {
+	padding-right: 20px;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr .low {
+	text-align: center !important;
+	background-color: #f2f7fc;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr .middle {
+	text-align: center !important;
+	background-color: #f4f9fd;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr .high {
+	text-align: center !important;
+	background-color: #fafdfe;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr.last-row .low {
+	font-weight: bold;
+	color: #0064cc;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr.last-row .middle {
+	font-weight: bold;
+	color: #409bdb;
+}
+.modal-dialog .modal-content .price-average .weekly-cost tr.last-row .high {
+	font-weight: bold;
+	color: #69b6ec;
+}
+.modal-dialog .modal-content .price-average caption {
+	caption-side: bottom;
+	font-style: italic;
+	font-size: 12px;
+	color: #000000;
+	padding-top: 20px;
+}
+.modal-dialog .modal-body span.span-block {
+	display: block;
+}
+#life-calculator-form label.error {
+	color: #b94a48;
+	font-size: 12px;
+}
+.modal-dialog .modal-body h4 {
+	color: #666666 !important;
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+#life-calculator-form  p.assumptions .btn-link {
+	margin: 0 0;
+	padding: 0 0;
+}
+#life-calculator-form  p.assumptions .btn-link:hover,
+#life-calculator-form  p.assumptions .btn-link:focus {
+	color: #4689ff;
+	text-decoration: underline;
+}
+.modal-dialog .modal-content .price-average .table-responsive .flag-table .pad-left {
+	padding-left: 4px;
+}
+.modal-dialog .modal-content .price-average .ordered-list .pad-left {
+	padding-left: 10px;
+}
+/*Desktop only styles here if needed*/
+@media (min-width: 769px) {
+}
+/* Mobile/Tablet styles here - this is main responsive break point */
+@media (max-width: 768px) {
+	#life-calculator-form h2 {
+		line-height: 24px;
+	}
+	#life-calculator-form .collapse-header .last,
+	#life-calculator-form .collapse-content .last {
+		border-bottom: 1px solid #B0B0B0;
+	}
+	#life-calculator-form div.life-calculator-banner {
+		background-image: none;
+		height: auto !important;
+	}
+	#life-calculator-form .all-buttons .btn-recalculate {
+		clear: both;
+	}
+	#life-calculator-form div.img-big {
+		border-bottom: none !important;
+	}
+	#life-calculator-form .panel-summary .panel-heading .col-summary-amount h5 {
+		padding-left: 10px;
+	}
+	#life-calculator-form #steps .panel,
+	#life-calculator-form #summary .panel {
+		padding: 10px !important;
+	}
+	#life-calculator-form #steps .caret,
+	#life-calculator-form #summary .caret {
+		margin-top: -23px;
+	}
+	#life-calculator-form #steps .panel-heading .collapsed .caret,
+	#life-calculator-form #summary .panel-heading .collapsed .caret {
+		margin-top: -19px;
+	}
+	#life-calculator-form #steps .panel-grey .panel-heading .caret {
+		margin-top: 0px;
+	}
+	#life-calculator-form #steps .panel-grey .panel-heading .collapsed .caret {
+		margin-top: 4px;
+	}
+	#life-calculator-form #steps .panel-body .row .input-group {
+		padding: 10px 0;
+	}
+	#life-calculator-form #steps .panel-body .rate .input-group {
+		padding: 10px 13px;
+	}
+	#life-calculator-form #steps .panel-body .row  span.help {
+		margin-left: 13px
+	}
+	#life-calculator-form .panel-summary .panel-heading .col-summary-amount {
+		padding-left: 35px;
+	}
+	/*.life-calculator-page .panel-summary .panel-heading .col-summary-amount {
+		display: none;
+	}*/
+	#life-calculator-form .panel-summary .panel-heading .col-summary-title {
+		border: none;
+	}
+	#life-calculator-form #steps .panel-heading span.show-caret {
+		display: none;
+	}
+	#life-calculator-form .panel-summary .panel-heading .col-summary-title .show-title-caret {
+		display: block;
+		float: right;
+	}
+	#life-calculator-form #summary .panel-heading .col-summary-amount span span.show-summary-caret {
+		display: none;
+	}
+	#life-calculator-form #steps .panel-grey .panel-heading span.assumptions-show {
+		margin-top: -23px !important;
+		margin-right: 0px !important;
+	}
+	#life-calculator-form #steps .panel-grey .panel-heading .collapsed span.assumptions-show {
+		margin-top: -21px !important;
+		margin-right: 0px !important;
+	}
+	#life-calculator-form #steps .panel-grey .panel-heading .caret {
+		margin-top: 0px;
+	}
+	#life-calculator-form #steps .panel-grey .panel-heading .collapsed .caret {
+		margin-top: 4px;
+	}
+	.modal-dialog .modal-content .graph-image img {
+		max-width: 100%;
+		float: none;
+	}
+	.modal-dialog .modal-content .ordered-list li img {
+		padding-right: 10px;
+	}
+	.modal-dialog .modal-content .price-average .table-responsive .flag-table .header-row img {
+		float: none;
+	}
+	.modal-dialog .modal-title {
+		margin-left: 5px;
+		margin-top: 4px;
+	}
+	.modal-dialog .modal-body {
+		padding: 13px;
+	}
+	#life-calculator-form .input-group {
+		clear: both;
+	}
+	#life-calculator-form .column-wrapper {
+		margin-top: 20px;
+	}
+	#life-calculator-form #summary .panel-body .row {
+		margin: 0 0 !important;
+	}
+	#life-calculator-form .collapse-content img.rhs-image {
+		clear: both;
+		display: block !important;
+	}
+	#life-calculator-form .column-wrapper .collapse-content > strong,
+	#life-calculator-form .column-wrapper .collapse-content > p {
+		width: 100%;
+	}
+	#life-calculator-form #summary .caret {
+		margin-top: 9px !important;
+	}
+	#life-calculator-form #summary .collapsed .caret {
+		margin-top: 7px !important;
+	}
+	#life-calculator-form .collapse-content img {
+		max-width: 100% !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: block;
+		float: none;
+	}
+	#life-calculator-form .ordered-list img {
+		max-width: 30% !important;
+		display: inline-block !important;
+	}
+	.modal-dialog .modal-content .price-average .table-responsive .flag-table .header-row th {
+		padding: 0 0 !important;
+		text-align: center !important;
+	}
+	.modal-dialog .modal-content .price-average .ordered-list .pad-left {
+		padding-left: 1px !important;
+	}
+}
+.column-wrapper div img {
+	margin:0;
+}
+/*If you need further smaller break points other than the above please add them below here*/
+.printSummary {
+	display: none;
+    font-family: Arial, sans-serif;
+}
+.printSummary table {
+	width: 600px;
+    /*border: 1px solid #ddd;
+    border-radius: 10px;*/
+    border-collapse: separate !important;
+    /* border-spacing: 1px;*/
+}
+.printSummary table th {
+	border: 1px solid #ddd;
+}
+.printSummary table th.left {
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+}
+.printSummary table th.right {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	border-left: 0;
+}
+.printSummary table td.left {
+	border-left: 1px solid #ddd;
+}
+.printSummary table td.right {
+	border-right: 1px solid #ddd;
+}
+.printSummary table td.bottom {
+	border-bottom: 1px solid #ddd;
+}
+.printSummary table td.bottom.left {
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+}
+.printSummary table td.bottom.right {
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+}
+.printSummary table td {
+	padding: 0 15px;
+}
+.printSummary table td.printLabel {
+	padding-left: 30px;
+}
+.printSummary table td.printLabel span {
+	font-size: 11px;
+}
+.printSummary table td.divider {
+	padding: 0 10px;
+}
+.printSummary table tr.spacer {
+	height: 25px;
+    padding: 5px 0;
+}
+.printSummary table td.divider hr {
+	margin 2px 0;
+}
+.printSummary table th {
+    padding: 15px 15px;
+    background-color: #f0f7fc;
+    /*border: 1px solid #ddd;*/
+}
+.printSummary table h4 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+.printSummary table h4 span {
+    font-size: 11px;
+    font-weight: normal;
+}
+.printSummary .titleCol {
+	width: 350px;
+}
+.printSummary th {
+	font-weight: normal;
+}
+.printSummary tr {
+	vertical-align: middle; 
+}
+.printSummary th p {
+	font-size: 12px;
+}
+.printSummary th h4, .printSummary th p {
+    color: #004986;
+}
+.life-calculator-page.showSummary .summary-container,
+#life-calculator-form.showSummary .summary-container {
+	display: block;
+}
+/* MB 10/01/2014.  Hide/show stuff for printing */
+@media print {
+	.img-big {
+		display:none;
+	}
+	#life-calculator-form.showSummary .summary-container {
+		display: none;
+	}
+	.printSummary {
+		display: block;
+	}
+/*
+	div.col-sm-7 {
+		width: 58.333333333333336%;
+		float: left;
+	}
+	
+	div.col-sm-5 {
+		width: 41.66666666666667%;
+		float: left;
+	}
+	
+	#summaryOne, #summaryTwo, #summaryThree {
+		display: block;
+		height: 120px !important;
+	}
+	
+	.panel-title.sub-title {
+		clear: both;
+	}
+*/
+	.col-sm-9.content-wrapper {
+		width:100%;
+	}
+	.col-sm-9.content-wrapper > h2.content-header {
+		display:none;
+	}
+	.container.header, .row.mobile-life-calculator, .life-calculator {
+		display: none;	
+	}
+	.row .col-sm-3.column-wrapper {
+		display: none;
+	}
+	
+	#steps {
+		display: none;
+	}
+	
+	.show-caret,
+	.caret {
+		display: none;
+	}
+		
+	.all-buttons, .all-buttons .btn-orange {
+		display: none;
+	}
+	
+	.assumptions, .sub-header, .findOut {
+		display: none;
+	}
+	
+	.footer,
+	.footnote {
+		display: none;
+	}
+	.row.mobile-home {
+		display: none;
+	}
+	.second-nav-btn {
+		display: none;
+	}
+}
+/* email popup dialog styles */
+.email-quote-popup {
+    display: none;
+}
+#emailDialogCloseButton,
+.emailInfoRow {
+	display: none;
+}
+.emailSent #emailDialogCancelButton,
+.emailSent #emailDialogSubmitButton {
+	display: none;
+}
+.emailSent #emailDialogCloseButton {
+	display: inline-block;
+}
+.emailSent .emailInfoRow {
+	display: table-row;
+}
+.email-quote-popup .emailInfoRow small {
+	line-height: 1.5;
+}

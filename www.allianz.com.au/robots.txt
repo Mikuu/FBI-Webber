@@ -1,0 +1,36 @@
+#Allow access for Allianz Internal Search
+User-agent: allianz-internal-crawler
+Disallow:
+
+ 
+#Allow access to All Bots
+User-agent: *
+
+#Disallow access to these specific pages
+Disallow: /aalaus/aalaus.nsf/*
+Disallow: /preview/*
+Disallow: /s/AFG_Free_Offer
+Disallow: /s/allianz-nswctp-itc
+Disallow: /s/car-insurance-conditions
+Disallow: /s/life-insurance-conditions
+Disallow: /s/onlineclaims
+Disallow: /*/resources/
+Disallow: /allianz-finance/*
+Disallow: /s/home-ab-test
+Disallow: /fuel/*
+Disallow: /s/terms-conditions-travel-*
+
+#Disallow other sites
+Disallow: /internet/clubmarine.nsf/*
+Disallow: /internet/clubnz.nsf/*
+
+
+#Disallow access to ClickTale helper page
+Disallow: /ctFrame.htm
+
+#Disallow access to psp247 helper page
+Disallow: /psp247/*
+
+
+#Sitemap
+Sitemap: http://www.allianz.com.au/sitemap.xml
