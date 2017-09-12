@@ -1,0 +1,5 @@
+User-agent: *
+
+Sitemap: http://www.opposhop.cn/archives/sitemap/opposhop.sitemap.xml
+Sitemap: http://www.opposhop.cn/archives/sitemap/opposhop.sitemap.html
+Sitemap: http://www.opposhop.cn/archives/sitemap/opposhop.sitemap.txt
