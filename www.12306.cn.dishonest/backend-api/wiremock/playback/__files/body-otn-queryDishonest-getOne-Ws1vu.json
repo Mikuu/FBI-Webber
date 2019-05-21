@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "check_flag": "2",
+      "flag2": "在动车组列车上吸烟或者在其他列车的禁烟区域吸烟的。",
+      "passenger_id_no": "330602********2514",
+      "passenger_id_type": "1",
+      "passenger_name": "特朗普",
+      "start_date": "20190215"
+    }
+  ],
+  "errorMsg": "",
+  "status": true
+}

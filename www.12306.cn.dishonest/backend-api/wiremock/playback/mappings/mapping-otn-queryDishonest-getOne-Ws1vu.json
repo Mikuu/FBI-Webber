@@ -1,0 +1,24 @@
+{
+  "id" : "fdaa826b-a86b-34b8-abbd-042775dfc336",
+  "request" : {
+    "url" : "/otn/queryDishonest/getOne",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "passenger_name=%E7%89%B9%E6%9C%97%E6%99%AE&passenger_id_no=510108198703123231"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-otn-queryDishonest-getOne-Ws1vu.json",
+    "headers" : {
+      "Date" : "Tue, 21 May 2019 14:12:15 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*",
+      "Set-Cookie" : [ "BIGipServerotn=2045247754.50210.0000; path=/", "HYB_SH=6eb8ef9cfbb2c737394486173f3df09fb5; Expires=Tue, 21-May-19 14:12:20 GMT; Path=/", "HMF_CI=47fe3a9494e0adb3b501abe68872e13703e108b6ba78bccab223745481d6c553f7; Expires=Tue, 03-Dec-19 14:12:15 GMT; Path=/" ],
+      "X-Via" : "1.1 nch139:6 (Cdn Cache Server V2.0)",
+      "X-Cdn-Src-Port" : "18836"
+    }
+  },
+  "uuid" : "fdaa826b-a86b-34b8-abbd-042775dfc336"
+}
