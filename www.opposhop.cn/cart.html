@@ -1,283 +1,746 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<html class='no-js'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+    <meta content='width=device-width,initial-scale=1, user-scalable=no' name='viewport'>
+    <title>购物车-OPPO智能手机官网 </title>
+    <meta name="keywords" content="购物车,OPPO智能手机官网 " />
+    <meta name="description" content="OPPO手机购物车为您提供OPPO手机购物车流程,想知道更多的购物车信息，就在OPPO智能手机官网。 " />
+    <link media="all" type="text/css" rel="stylesheet" href="//shopfs.myoppo.com/shop/assets/stylesheets/styles.css?v=201708101710">
 
-    <title>『OPPO帐号』-登录</title>
-    <meta name="keywords" content=" OPPO帐号,登录,注册,找回密码,OPPO账号,OPPO会员" />
-    <meta name="description" content="登录OPPO帐号，可以在OPPO官网、社区、软件商店、游戏中心、主题商店等享受更多功能服务。 " />
-    <link rel="stylesheet" href="https://id.oppo.com/resources/css/common.css?r=20170503" />
-        <style>
-            input:-webkit-autofill+label{display:none;}
-            input:-moz-autofill+label{display:none;}
-        </style>
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?dc85f549df5b5343343aad449e4ea382";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
+    <script type="text/javascript">
+		function checkBrowser(){
+			var browser = {};
+			var div = document.createElement( "div" );
+			div.innerHTML = "<link/><table></table><a href='/a'>a</a><input type='checkbox'/>";
+            var a = div.getElementsByTagName( "a" )[0];
+			style = a && a.style;
+			if (!style) {
+				return;
+			}
+			style.cssText = "float:left;opacity:.5";
+			// Support: IE<9
+			// Make sure that element opacity exists (as opposed to filter)
+			browser.opacity = style.opacity === "0.5";
+			// Verify style float existence
+			// (IE uses styleFloat instead of cssFloat)
+			browser.cssFloat = !!style.cssFloat;
+			if(browser.opacity && browser.cssFloat){
+				return true;
+			}else{
+                //IE 8测试
+                var userAgent = navigator.userAgent.toLocaleUpperCase();
+                var msie = /MSIE [\d\.]+/;
+                var version = msie.exec(userAgent);
+                if (version<"MSIE 8") return false;
+                else return true;
+			}
+		}
+        var v = checkBrowser();
+		if (!v) {
+			window.location.href = "http://www.opposhop.cn/lower.html";
+		}
     </script>
-</head>
-<body>
-<div class="wrapper">
-        <div class="header">
-            <div class="w960">
-                 <ul class="menu_sec">
-                    <li><a href="http://www.oppo.com">OPPO官网</a></li>
-                    <li><a href="http://www.oppo.cn/">OPPO社区</a></li>
-                    <li><a href="http://www.coloros.com/">ColorOS</a></li>
-                    <div class="clear"></div>
-                </ul>
-                <div class="clear"></div>
+    <!--[if lt IE 9]>
+      <link media="all" type="text/css" rel="stylesheet" href="http://www.opposhop.cn/assets/stylesheets/styles.css?v=2017627153400">
+
+      <script src="//shopfs.myoppo.com/shop/lib/html5shiv.js"></script>
+
+      <script src="//shopfs.myoppo.com/shop/lib/respond.min.js"></script>
+
+      <script src="//shopfs.myoppo.com/shop/lib/selectivizr-min.js"></script>
+
+      <link media="all" type="text/css" rel="stylesheet" href="//shopfs.myoppo.com/shop/assets/stylesheets/ie.css?v=20161221100627">
+
+    <![endif]-->
+    <script src="//shopfs.myoppo.com/shop/lib/modernizr.custom.js"></script>
+
+          <script>
+    NTKF_PARAM = {
+      siteid: "kf_9568",
+      settingid: "kf_9568_1493698078342",
+      uid:"",
+      uname:"",
+      isvip: "0",
+      userlevel: "1",
+      erpparam: "abc",
+      ntalkerparam:{
+        cartprice: 0.00,
+　　    items: ""
+      }
+    };
+  </script>
+  </head>
+  <body>
+  <header class='main-header'>
+  <div class='upper-area'>
+    <div class='wrapper g'>
+                  <ul class='gi log-area'>
+    <li class='gi hidden hasLogin' data-desktop='.upper-area .log-area' data-mobile='.mobile-tools .log-area'>
+      <a href='//www.opposhop.cn/orders'>
+        <span class='text'>我的OPPO</span>
+        <span class='icon icon-messages'></span>
+        <span class='n-messages'>(0)</span>
+      </a>
+    </li>
+    <li class='gi hidden hasLogin' data-desktop='.upper-area .log-area' data-mobile='.mobile-tools .log-area'>
+      <a class='logout sso-logout' href='javascript:void(0)'>退出</a>
+    </li>
+    <li class='gi hasLogout' data-desktop='.upper-area .log-area' data-mobile='.mobile-tools .log-area'>
+      <a class="sso-login" href='javascript:void(0)'>
+        登录
+      </a>
+    </li>
+    <li class='gi hasLogout' data-desktop='.upper-area .log-area' data-mobile='.mobile-tools .log-area'>
+      <a class="sso-register" href='javascript:void(0)'>
+        注册
+      </a>
+    </li>
+    </ul>      <ul class='gi menu-lang'>
+  <li class='gi gi-language' data-desktop='.menu-lang' data-mobile='.main-menu nav .nav-ul-view > ul'>
+    <a class='lang-link js-toggle-close' href='#'>Global</a>
+    <div class='languages js-content' data-desktop='.gi-language' data-mobile='.languages-panel'>
+      <div class='wrapper'>
+        <h3 class='h-epsilon'>Select your country or region</h3>
+        <ul>
+          <li>
+          <a  href='http://www.oppo.com/dz/'>Algérie</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/au/'>Australia</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/bd/'>Bangladesh</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/eg/'>Egypt</a>
+          </li>
+          <li>
+          <a href='http://www.oppo.com/en/'>Global</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/in/'>India</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/id/'>Indonesia</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/ke/'>Kenya</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/my/'>Malaysia</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/ma/'>Maroc</a>
+          </li>
+          <!-- <li>
+          <a  href='http://www.oppo.com/mx/'>México</a>
+          </li> -->
+          <!-- <li>
+          <a  href='http://www.oppo.com/ng/'>Nigeria</a>
+          </li> -->
+          <li>
+          <a  href='http://www.oppo.com/pk/'>Pakistan</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/ph/'>Philippines</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/sg/'>Singapore</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/lk/'>Sri Lanka</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/tw/'>台灣</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/ae/'>UAE</a>
+          </li>
+          <li>
+          <a  href='http://www.oppomobile.vn/'>Việt Nam</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/th/'>ประเทศไทย</a>
+          </li>
+          <li>
+          <a  href='http://www.oppo.com/mm/'>Myanmar</a>
+          </li>
+          <li>
+          <a  class='current'  href='http://www.oppo.com/cn/'>中国</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </li>
+</ul>    </div>
+  </div>
+  <div class='bottom-area'>
+    <div class='wrapper'>
+      <a class='js-open-menu' href='#'>
+        <i class='js-open-menu-bar'></i>
+      </a>
+      <div class='shop-cart'>
+  <a href='http://www.opposhop.cn/cart'>
+        <span class='icon icon-cart'></span>
+    <span class='n-item-cart cart_number' id="shopping-count">0</span>
+  </a>
+</div>      <div class='logo logo-extend'>
+        <a href='//www.oppo.com/cn/'>
+          <img src="//shopfs.myoppo.com/shop/media/images/logo.svg" alt="">
+        </a>
+        <!-- <a class="logo-special oppo-tj"  data-tj="www|img|revision|special-logo">
+          <img src="/media/images/revision/qixi/qixi-logo.gif" />
+        </a> -->
+        <!-- <a class="logo-special oppo-tj"  data-tj="www|img|revision|special-logo">
+          <img src="/media/images/revision/newyear/monkey-logo.gif" />
+        </a> -->
+      </div>
+      <a class='js-open-user' href='#'>
+        <img src="//shopfs.myoppo.com/shop/media/images/icon-menu-user.png" alt="">
+      </a>
+      <div class='main-menu'>
+        <!-- <div class='mobile-tools'>
+          <a class='js-close-menu' href='#'>
+            <img alt='' src='/cn/media/images/icon-menu-close.png' />
+          </a>
+          <ul class='g log-area'></ul>
+        </div> -->
+        <div class='search'></div>
+        <nav>
+  <div class='nav-ul-view'>
+  <ul class='menu g'>
+    <li class='gi
+    '>
+      <a class='m-item' href='//www.oppo.com/cn/'>
+        <span>首页</span>
+      </a>
+    </li>
+    <li class='gi'>
+      <a class='m-item' href='//www.oppo.com/cn/products.html'>
+        <span>产品</span>
+      </a>
+    </li>
+                                <li class='gi
+        is-active
+        '>
+      <a class='m-item' id='storeLink' href='//www.opposhop.cn' data-hd-url='http://hd.oppo.com/act/2016/1001/index.html'>
+        <span>商城</span>
+              </a>
+          </li>
+    <li class='gi'>
+      <a class='m-item' href='//www.oppo.com/cn/shops'>
+        体验店
+      </a>
+    </li>
+    <li class='gi'>
+      <a class='m-item' href='//www.oppo.com/cn/service.html'>
+        服务
+              </a>
+    </li>
+          <li class='gi'>
+      <a class='m-item' href='http://www.coloros.com/' target="_blank">
+        ColorOS
+      </a>
+    </li>
+    <li class='gi'>
+      <a class='m-item  oppo-tj' href='http://www.oppo.cn/' target="_blank"   data-tj="opposhop|out|link|shequ">
+        社区
+      </a>
+    </li>
+    <li class='gi'>
+      <a class='m-item' href='http://yun.oppo.com/' target="_blank">
+        云服务
+      </a>
+    </li>
+  </ul>
+  </div>
+
+</nav>
+      </div>
+      <div class='user-menu'>
+<div class='relative'>
+  <ul>
+    <li class='user-menu-login'>
+      <a href="//www.opposhop.cn/orders">我的订单</a>
+    </li>
+    <li class='user-menu-login'>
+      <a href="https://id.oppo.com/account/profile">账户信息</a>
+    </li>
+    <li class='user-menu-login'>
+      <a href="//www.opposhop.cn/user/addresses">配送地址</a>
+    </li>
+    <li class='user-menu-login user-menu-cart'>
+      <a href="//www.opposhop.cn/cart">购物车</a>
+    </li>
+    <li class='user-menu-login user-menu-toLogin'>
+      <a class="sso-login" href='javascript:void(0)'>
+        登录
+      </a>
+    </li>
+    <li class='user-menu-logout'>
+      <a class="sso-logout" href='javascript:void(0)'>退出</a>
+    </li>
+  </ul>
+</div>
+</div>    </div>
+  </div>
+  <div class='nav-sub-menu'>
+  <div class='relative'></div>
+</div>
+<div class='nav-search-mask'></div>
+<div class='nav-search'>
+  <div class='nav-search-container'>
+    <div class='nav-search-content'>
+      <div class='nav-search-input'>
+        <form action='//www.opposhop.cn/products' class='main-form'>
+          <input placeholder='搜索OPPO商品' type='text' name="q">
+          <button class='button' type='submit'>搜索</button>
+          <a href='#' class='nav-search-close'>取消</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>  <div class="languages-panel"></div>
+</header>
+        <main class='main-content slab-light'>
+      <div class='wrapper'>
+        <ul class='breadcrumb'>
+  <li>
+    <a href='//www.oppo.com/cn/'>
+      首页
+      <span>/</span>
+    </a>
+  </li>
+            <li>
+                  购物车
+              </li>
+      </ul>
+        <div class='brick-bottom'>
+          <ul class='steps'><li class='one active step-completed'>
+    <div class='step-content'>
+            <h5 class='step-heading'>购物车</h5>
+      <div class='step-gradient'></div>
+    </div>
+  </li><li class='two  '>
+    <div class='step-content palm-right-text'>
+            <h5 class='step-heading'>填写订单</h5>
+      <div class='step-gradient'></div>
+    </div>
+  </li><li class='three '>
+    <div class='step-content'>
+            <h5 class='step-heading'>支付</h5>
+      <div class='step-gradient'></div>
+    </div>
+  </li></ul>
+
+          <div class="row">
+            <div class="col-md-12">
+            <div class="alert alert-danger" role="alert">
+              <ul class="list-unstyled">
+                <strong class='error_msg_note'>
+                </strong>
+              </ul>
             </div>
-        </div>
+            </div>
+          </div>
 
-
-
-        <div class="login_box">
-            <div class="mainbox">
-                <!--头部logo-->
-                <div class="lgnheader">
-                    <div class="logo"></div>
-                    <h3 class="title">登录OPPO帐号可享受更多的服务</h3>
+          
+          <form class='g'>
+            <div class='gi one-whole slab-white-border cart-reversion'>
+              <ul class='purchase-list-header'>
+                <li class='first'>
+                  <label class="check-box-label check-box-all is-checked" for='checkAll'>
+                    <span class="icon icon-checkbox"></span>
+                    <span class="space-ml-10">全选</span>
+                  </label>
+                </li>
+                <li class='second'>产品</li>
+                <li class='third'>数量</li>
+                <li class='four'>单价</li>
+                <li class='five'>操作</li>
+              </ul>
+              <div class='brick-shadow purchase-list'>
+                <center><h2>购物车空空的，去<a href='/' style='color:#1f8657;'>逛逛</a>吧</h2></center>
+              </div>
+              <div class='form-actions brick-shadow'>
+                <div class='form-actions-left'>
+                  <a class='link-primary' href='http://www.opposhop.cn' target="_blank">继续购买&gt;&gt;</a>
                 </div>
-                <!--主体登录框-->
-                <div class="login_area">
-                    <div class="login_form" >
-                        <div class="input_area">
-                            <input type="text"  id="username" name="username" autocomplete="off"  class="username" />
-                            <label class="placeholder" for="username">请输入手机号码/邮箱/用户名</label>
-                        </div>
-                        <div class="error_tip" id="info_username"></div>
-
-
-                        <div class="input_area">
-                            <input type="password"  id="pwd"  autocomplete="off"  class="pwd"/>
-                            <label class="placeholder" for="pwd">请输入帐号密码</label>
-                        </div>
-                        <div class="error_tip" id="info_pwd"></div>
-
-                        <div id="captcha_area">
-                            <div class="error_tip" id="info_vercode"></div>
-                        </div>
-
-
-                        <div class="field">
-                            <a onclick="problems();" class="text_green fr" >登录遇到问题</a>
-                            <div class="clear"></div>
-
-                        </div>
-                        <input type="submit" class="button login_button mt30" id="loginBtn" value="登录" onclick="check_login();"  style="margin-bottom:15px;" />
-                        <input type="button" class="button register_button oppo-tj" id="registerBtn" value="注册OPPO帐号"  link = "/register/sms?type=1"  data-tj="account|link|register|register"/>
-
-                        <div class="error_tip1" style="margin-top:10px;" id="info_login_form"></div>
-
-                        <!--其他登录方式-->
-                        <div class="n_links_area">
-                            <div class="oth_type_list"></div>
-                            <div class="oth_type_links">
-                                <a class="other_link ico_qq oppo-tj" link="http://my.oppo.com/auth/qqlogin"  data-tj="account|link|loginqq|qq"></a>
-                                <a  class="other_link ico_wb oppo-tj" link="http://my.oppo.com/auth/sinalogin" data-tj="account|link|loginweibo|weibo" ></a>
-                                <a  class="other_link ico_alipay oppo-tj"  link="http://my.oppo.com/auth/alipaylogin" data-tj="account|link|loginzfb|zfb"></a>
-                                <a class="other_link ico_wx oppo-tj" link="http://my.oppo.com/auth/wxlogin" data-tj="account|link|loginwx|wx"></a>
-                            </div>
-                        </div>
-                        <input type="hidden"  id="password" name="password" />
-                    </div>
-                </div>
+                <div class='form-actions-right'>
+                                  </div>
+              </div>
             </div>
-
-            <div class="footer_info">
-                <p>© 2005 - 2017 东莞市永盛通信科技有限公司 版权所有 粤ICP备08130115号-1</p>
-            </div>
+          </form>
         </div>
-    </div>
-
-
-    <!--找回密码弹窗-->
-    <div class="pop_dlg" id="find_pwd_dlg">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">找回密码</h4>
-        <div class="dlg_wrapper">
-            <div class="dlg_content">请输入需要找回密码的帐号，点击“下一步”选择找回密码方式。</div>
-            <div class="input_area">
-                <input type="text"  id="username1" name="username1"  autocomplete="off"   class="username" />
-                <label class="placeholder" for="username1">请输入手机号码/邮箱/用户名</label>
-            </div>
-            <div class="error_tip" id="info_username1"></div>
-
-            <div class="input_area">
-                <input type="text" id="vercode1" class="vercode" autocomplete="off"/>
-                <label class="placeholder" for="vercode1">请输入验证码</label>
-                <div class="pic">
-                    <img src="cart.html"  alt="点击刷新验证码" title="点击刷新验证码" id="auth_code1"/>
-                </div>
-            </div>
-            <div class="error_tip" id="info_vercode1"></div>
-            <div class="button login_button" style="margin-top:20px" onclick="check_find_pwd()">下一步</div>
-            <div class="error_tip1" id="info_find_pwd_dlg"></div>
+        <div class='cart-btn-check'>
+          <a class='button cart-button oppo-tj' id='shipping_btn_m' href='javascript:;' data-tj='store|btn|check|sticky' >结算</a>
         </div>
+              </div>
+    </main>
+    <div id='dialog-confirm' class='hidden'>
+			<div class="mask-common"></div>
+			<div class="dialog-common dialog-box-common">
+				<div class="dialog-container">
+					<a class="dialog-close-common">×</a>
+					<div class="dialog-content-common">
+												<div class="field">
+							<h4 class='dialog-title-common'>您确定要删除该商品吗？</h4>
+						</div>
+																		<div class="dialog-common-content">
+												</div>
+												<div class="field dialog-btn">
+							<div class="g g-wrapper-s">
+																<div class="gi lap-one-half">
+									<a class='button button-one'>确定</a>
+								</div>
+																								<div class="gi lap-one-half">
+									<a class='button-light button-two'>取消</a>
+								</div>
+															</div>
+						</div>
+																	</div>
+				</div>
+			</div>
+		</div>
+	    <div id='dialog-error-msg' class='hidden'>
+			<div class="mask-common"></div>
+			<div class="dialog-common dialog-box-common">
+				<div class="dialog-container">
+					<a class="dialog-close-common">×</a>
+					<div class="dialog-content-common">
+												<div class="field">
+							<h4 class='dialog-title-common'>.</h4>
+						</div>
+																		<div class="dialog-common-content">
+												</div>
+																		<div class="field dialog-btn">
+							<div class="g g-wrapper-s">
+								<div class="gi lap-one-whole">
+									<a class='button button-one-whole'>确定</a>
+								</div>
+							</div>
+						</div>
+											</div>
+				</div>
+			</div>
+		</div>
+	        <footer class='main-footer'>
+    <div class='footer-sitemap'>
+    <nav class='wrapper'>
+  <div class="g">
+    <div class="gi lap-three-quarters">
+  <ul class='g'>
+                <li class='gi lap-one-quarter'>
+        <a class='m-item' href='//www.oppo.com/cn/products' target="_blank">推荐机型</a>
+      <span class="toggle js-toggle-sitemap"></span>
+      <ul>
+                <li>
+          <a href='http://www.opposhop.cn/products/412.html' target='_blank'>R11</a>
+        </li>
+                <li>
+          <a href='http://hd.oppo.com/act/2017/0623/index.html' target='_blank'>R11 Plus</a>
+        </li>
+                <li>
+          <a href='//www.opposhop.cn/products/409.html' target='_blank'>A57</a>
+        </li>
+                <li>
+          <a href='//www.opposhop.cn/products/389.html' target='_blank'>A59s</a>
+        </li>
+              </ul>
+    </li>
+            <li class='gi lap-one-quarter'>
+        <a class='m-item' href='//www.oppo.com/cn/service' target="_blank">服务</a>
+      <span class="toggle js-toggle-sitemap"></span>
+      <ul>
+                <li>
+          <a href='//www.oppo.com/cn/service/map' target='_blank'>服务网点查询</a>
+        </li>
+                <li>
+          <a href='//www.oppo.com/cn/service/part' target='_blank'>零配件价格查询</a>
+        </li>
+                <li>
+          <a href='//www.oppo.com/cn/service/help/614?name=打假维权' target='_blank'>官方授权网店</a>
+        </li>
+              </ul>
+    </li>
+            <li class='gi lap-one-quarter'>
+        <a class='m-item' href='//www.oppo.com/cn/blogs' target="_blank">关于我们</a>
+      <span class="toggle js-toggle-sitemap"></span>
+      <ul>
+                <li>
+          <a href='//www.oppo.com/cn/blogs/about' target='_blank'>关于OPPO</a>
+        </li>
+                <li>
+          <a href='http://career.oppo.com' target='_blank'>加入我们</a>
+        </li>
+              </ul>
+    </li>
+            <li class='gi lap-one-quarter'>
+        <a class='m-item' href='http://open.oppomobile.com/' target="_blank">商务合作</a>
+      <span class="toggle js-toggle-sitemap"></span>
+      <ul>
+                <li>
+          <a href='http://open.oppomobile.com/' target='_blank'>开放平台</a>
+        </li>
+                <li>
+          <a href='//www.oppo.com/cn/service/help/605?name=sourcing' target='_blank'>采购相关</a>
+        </li>
+              </ul>
+    </li>
+          </ul>
     </div>
-
-    <!--短信验证身份-->
-    <div class="pop_dlg" id="yz_sms_dlg">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">验证身份</h4>
-        <div class="dlg_wrapper">
-            <div class="dlg_content">点击发送短信按钮，将发送一条含有数字验证码的短信至您的手机<span id="phoneNum" class="phoneNum"></span>，用于验证身份。</div>
-            <div class="button login_button" style="margin-top:25px">发送短信</div>
-            <div class="error_tip1" id="info_yz_sms_dlg"></div>
-            <a class="other_way mt30" onclick = "hideDiv($('#yz_sms_dlg'));showDiv($('#yz_email_dlg'))">使用安全邮箱验证身份</a>
-            <a class="other_way" onclick = "hideDiv($('#yz_sms_dlg'));showDiv($('#yz_mibao_dlg'))">使用密保问题验证身份</a>
-        </div>
+    <div class="gi lap-one-quarter align-right">
+      <div class="one-half lap-one-whole contact-online">
+        <a href="http://oim.oppo.com/oim/chatClient/chatbox.jsp?companyID=8092&configID=890&enterurl=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2Fpreview%2Ejsp&pagereferrer=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2FembedScript%2Ejsp%3Ft%3D1517&k=1" target="_blank" class="oppo-tj" data-tj="store|chatclient|online|footer"><img src="//shopfs.myoppo.com/shop/assets/images/content/others/icon-online.png" alt=""></a>
+      </div>
+      <div class="one-half lap-one-whole contact-tel">
+        <p class="contact-number">4001-666-888</p>
+        <p class="contact-tips">（24小时全国服务热线）</p>
+      </div>
     </div>
+  </div>
+</nav>  </div>
 
-    <div class="pop_dlg" id="yz_sms_dlg1">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">验证身份</h4>
-        <div class="dlg_wrapper">
-            <div class="dlg_content">已发送一条含有数字验证码的短信至您的手机<span id="phoneNum1" class="phoneNum"></span>，请输入短信中的验证码。</div>
-            <div class="input_area">
-                <input type="text" id="vercode2" name="verifycode" class="vercode" autocomplete="off" />
-                <label class="placeholder" for="vercode2">请输入验证码</label>
-                <div class="pic">
-                    <a class="btn_verify_unedit" id="btn_verify"><span id="time">60</span>S</a>
-                </div>
-            </div>
-            <div class="error_tip" id="info_vercode2"></div>
-            <div class="button login_button" style="margin-top:20px">验证</div>
-            <div class="error_tip1" id="info_yz_sms_dlg1"></div>
+  <div class="g wrapper">
+    <div class="footer-linear"></div>
+  </div>
 
-        </div>
+                              <!-- <div class='g'>
+          <div class='gi lap-one-whole one-whole'>
+            <a href='#' id="btn-kf"><img src='/cn/media/images/zxkf.png' /></a>
+          </div>
+          <div class='gi footer-lap-hide one-third'><img alt='' src='/cn/media/images/m.jpg' /></div>
+        </div> -->
+              <!-- <div class='footer-subscribe lap-one-half desk-lap-one-third'>
+        <form action='#' class='main-form'>
+          <div class='input-button-item'><input placeholder='输入Email订阅我们的最新动态' type='text'>
+          <button class='button button-primary' type='submit'>订 阅</button>
+          </div>
+        </form>
+      </div> -->
+    <div class='footer-info'>
+    <div class='wrapper'>
+            <div class="footer-focus">
+        <span class='text'>关注我们：</span>
+        <a href='http://weibo.com/oppo' target='_blank' class="footer-focus-weibo">
+          <span class='icon icon-weibo'></span>
+        </a>
+        <a href='#' class='footer-focus-icon footer-focus-wechat relative'>
+          <span class='icon icon-wechat'></span>
+          <img src="//shopfs.myoppo.com/shop/media/images/qrcode-wx.jpg" class="wx-float" alt="">
+        </a>
+        <a href='#' class='footer-focus-icon footer-focus-fuwuchuang relative'>
+          <span class='icon icon-fuwuchuang'></span>
+          <img src="//shopfs.myoppo.com/shop/media/images/qrcode-fwc.jpg" class="wx-float" alt="">
+        </a>
+      </div>
+      <p class='copy'>© 2005 - 2017 OPPO 版权所有 <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">粤ICP备14056724号-2</a> 联系方式：4001-666-888</p>
+      <a href="http://wljg.gdgs.gov.cn/corpsrch.aspx?key=441900001042573" target="_blank" title="企业名称：东莞市永盛通信科技有限公司
+法定代表人：吴强
+标识状态：已激活 粤工商备P191703000418" class="footer-identification"></a>
+  </div>
+</footer>
+    
+    <div class='navi-scroll'>
+  <div class="navi-scroll-content">
+    <a href="javascript:;" class="scroll-top-btn"><span>回到顶部</span><i></i></a>
+      </div>
+</div>
+
+    
+        <div class="purchase-advisory">
+        <a href="http://oim.oppo.com/oim/chatClient/chatbox.jsp?companyID=8092&configID=890&enterurl=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2Fpreview%2Ejsp&pagereferrer=http%3A%2F%2Foim%2Emyoppo%2Ecom%2Foim%2FembedScript%2Ejsp%3Ft%3D1517&k=1" target="_blank" class="oppo-tj" data-tj="store|chatclient|purchase|common" id="advisory">购机咨询</a>
     </div>
+    
+    <script src="//shopfs.myoppo.com/shop/lib/jquery-1.9.1.min.js"></script>
 
-    <!--邮箱验证身份-->
-    <div class="pop_dlg" id="yz_email_dlg">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">验证身份</h4>
-        <div class="dlg_wrapper">
-            <div class="dlg_content">点击发送邮件按钮，将发送一封邮件至您的邮箱<span id="email" class="phoneNum"></span>，用于找回密码。</div>
-            <div class="button login_button" style="margin-top:25px">发送邮件</div>
-            <div class="error_tip1" id="info_yz_email_dlg"></div>
+    <script src="//shopfs.myoppo.com/shop/lib/jquery.lazyload.min.js"></script>
 
+    <script src="//shopfs.myoppo.com/shop/lib/underscore-min.js"></script>
 
-            <a class="other_way mt30" onclick = "hideDiv($('#yz_email_dlg'));showDiv($('#yz_sms_dlg'))">使用安全手机验证身份</a>
-            <a class="other_way"  onclick = "hideDiv($('#yz_email_dlg'));showDiv($('#yz_mibao_dlg'))">使用密保问题验证身份</a>
-        </div>
-    </div>
+    <script src="//shopfs.myoppo.com/shop/lib/es5-shim.min.js"></script>
 
+    <script src="//shopfs.myoppo.com/shop/lib/base64.min.js"></script>
 
-    <div class="pop_dlg" id="yz_email_dlg1">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">邮件已发送</h4>
-        <div class="dlg_wrapper">
-            <div class="dlg_content">已发送验证邮件至您的邮箱，请于24小时内前往邮箱进行操作。</div>
-            <div class="button login_button" style="margin-top:25px">知道了</div>
-        </div>
-    </div>
+    <script src="//shopfs.myoppo.com/shop/lib/custom_form.js?v=20150914144728"></script>
 
-    <!--密保验证身份-->
-    <div class="pop_dlg" id="yz_mibao_dlg">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">验证身份</h4>
-        <div class="dlg_wrapper">
-            <h5>问题一</h5>
-            <div class="question" id="question0"></div>
-            <div class="input_area">
-                <input type="text" id="answer0" name="" class="answer" autocomplete="off"/>
-                <label class="placeholder" for="answer0">请输入答案</label>
+    <script src="//shopfs.myoppo.com/shop/lib/jquery.countdown.min.js"></script>
 
-            </div>
-            <div class="error_tip" id="info_answer0"></div>
+    <script src="//shopfs.myoppo.com/shop/lib/slick.min.js"></script>
 
-            <h5>问题二</h5>
-            <div class="question" id="question1"></div>
-            <div class="input_area">
-                <input type="text" id="answer1" name="" class="answer" autocomplete="off"/>
-                <label class="placeholder" for="answer1">请输入答案</label>
+    <script src="//shopfs.myoppo.com/shop/lib/responsive.js"></script>
 
-            </div>
-            <div class="error_tip" id="info_answer1"></div>
+    <script src="//shopfs.myoppo.com/shop/lib/picturefill.min.js"></script>
 
-            <h5>问题三</h5>
-            <div class="question" id="question2"></div>
-            <div class="input_area">
-                <input type="text" id="answer2" name="" class="answer" autocomplete="off"/>
-                <label class="placeholder" for="answer2">请输入答案</label>
+    <script src="//shopfs.myoppo.com/shop/lib/scripts.js?v=201511041533"></script>
 
-            </div>
-            <div class="error_tip" id="info_answer2"></div>
-            <div class="button login_button" style="margin-top:15px">确定</div>
-            <div class="error_tip1" id="info_yz_mibao_dlg"></div>
-        </div>
-    </div>
+        <script src="//shopfs.myoppo.com/shop/assets/javascripts/opposhop.min.js?v=20170823171547"></script>
 
 
+          <script type="text/javascript">
+    var xnscript = document.createElement("script");
+    xnscript.src = "https://xiaoneng.oppo.com:9091/js/xn6/ntkfstat.js?siteid=kf_9568";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(xnscript, s);
+</script>    <script type="text/javascript">
+    var vm;
+    OPPO.conf.BASE_URL = '//www.opposhop.cn';
+    OPPO.conf.STORE_URL = '//www.opposhop.cn';
+    OPPO.conf.ACCOUNT_URL = '//my.oppo.com';
+    OPPO.conf.WWW_URL = "//www.oppo.com/cn/";
+    OPPO.conf.SSO_LOGIN_URL = "https://id.oppo.com/login";
+    OPPO.conf.SSO_LOGOUT_URL = "https://id.oppo.com/logout";
+    OPPO.conf.SSO_REGISTER_URL = "https://id.oppo.com/register/sms?type=1";
+    OPPO.conf.date = '1505530393';
+    
+    var url = OPPO.conf.STORE_URL + '/auth/check';
+
+    var setNTKFParams = function(data) {
+        if("undefined" == typeof(NTKF_PARAM)) return;
+        NTKFTimer = setTimeout(function(){
+            if("undefined" == typeof(NTKF)) {
+                setNTKFParams(data);
+            } else {
+                NTKF.im_updatePageInfo({uid: data['oid'], 'uname': data['name']});
+            }
+        }, 300);
+    };
+
+    //callback for jsonp
+    var successCallback = function(data){
+        $('ul.log-area .hasLogout').removeClass('show').addClass('hidden');
+        $('ul.log-area .hasLogin').removeClass('hidden').addClass('show');
+        $('.cart_number').text(data['cart_number']);
+        $('.n-messages').text("(" + data['message_number'] + ")");
+        $('.user-menu').addClass('isLogin');
+        $('.user-menu-toLogin').hide();
+        if (data['message_number']>0 || data['cart_number']>0) {
+          $('.js-open-user').addClass('point-red');
+          if (data['message_number']>0) $('.user-menu-message a').addClass('point-red');
+          if (data['cart_number']>0) $('.user-menu-cart a').addClass('point-red');
+        };
+        if (data['append'] != '') $('body').append(data['append']);
+
+                setNTKFParams(data);
+    };
+    var errorCallback = function(){
+        $('ul.log-area .hasLogin').removeClass('show').addClass('hidden');
+        $('ul.log-area .hasLogout').removeClass('hidden').addClass('show');
+        $('.cart_number').text(0);
+    };
+    $.ajax({
+        url: url,
+        type: 'GET',
+        dataType: 'jsonp',
+        error: function() {
+            errorCallback();
+        },
+        success: function(data){
+            successCallback(data);
+        }
+    });
+
+    (function () {
+        var controllerNameWithAction = "CartsController@index".split('@');
+        var controllerName = controllerNameWithAction[0];
+        var actionName = controllerNameWithAction[1];
+        var controller = OPPO.controller[controllerName];
+        if (controller) {
+            action = controller()[actionName];
+            if (action) {
+                $(function () {
+                    vm = action();
+                });
+            }
+        }
+        // else console.log(controllerNameWithAction);
+    })();
+    </script>
+
+    <script type="text/javascript">
+      $(function(){
+              });
+    </script>
+    <!-- 百度统计代码  -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9cb8846b548404438c81aaa02eda4f0f";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计代码 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66238290-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!--oppo统计-->
+<script>
+var _optj = _optj || [];
+//判断是否登录，有登录则输出用户ID
+    _optj.push(['_uid', '302977111']);
+
+//加入购物车的商品ID信息
+    _optj.push(['_cart_gid','']);
+
+//判断是否有订单号信息 有则输出
 
 
-
-    <div class="pop_dlg" id="set_pwd_dlg">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">重置密码</h4>
-        <div class="dlg_wrapper">
-            <h5>新密码</h5>
-            <div class="input_area">
-                <input type="password"  id="newpwd" name="password" autocomplete="off" />
-                <label class="placeholder" for="newpwd">请输入密码</label>
-            </div>
-            <div class="error_tip" id="info_newpwd"></div>
-
-            <div class="input_area">
-                <input type="password"  id="repwd" name="repassword" autocomplete="off" />
-                <label class="placeholder" for="repwd">请再次输入密码</label>
-            </div>
-            <div class="error_tip" id="info_repwd" style="color:#878b8a;padding-top:15px;">密码包含6-16位字母、数字</div>
-            <div class="btns mt30">
-                <a class="cancel_btn">取消</a>
-                <a class="confirm_btn">确定</a>
-                <div class="clear"></div>
-            </div>
-            <div class="error_tip1" id="info_set_pwd_dlg" ></div>
-        </div>
-    </div>
+ //判断是否有订单的商品ID信息 有则输出 多个用"|"中划线分割
 
 
+(function() {
+  var op = document.createElement("script");
+  op.src = "//shopfs.myoppo.com/hd/static/js/optj-1.1.0.min.js?20170313";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(op, s);
+})();
+</script>
 
-    <!--超时弹框-->
-    <div class="pop_dlg" id="timeout_dlg">
-        <a class="ico_close"></a>
-        <h4 class="dlg_title">操作超时</h4>
-        <div class="dlg_wrapper">
-            <div class="dlg_content">您长时间未操作，请重新操作。</div>
-            <div class="button login_button" style="margin-top:25px" id="timeout_btn">知道了</div>
-        </div>
-    </div>
-    <!--成功重置密码的气泡-->
-    <div class="toast" id="success_toast"><img src="https://id.oppo.com/resources/images/ico_success.jpg" /><span id="toast_content">已成功重置密码</span></div>
+<!-- 华扬统计 -->
+<script type="text/javascript">
+var _utaq = _utaq || [];
+_utaq.push(["trackPageView"]);
+_utaq.push(["enableLinkTracking"]);
+(function() {
+var utu="https://sit.gentags.net/";
+_utaq.push(["setTrackerUrl", utu+"site/unids.gif"]);
+_utaq.push(["setSiteId", "1351"]);
+var utd=document, ut=utd.createElement("script"), s=utd.getElementsByTagName("script")[0]; ut.type="text/javascript";
+ut.defer=true; ut.async=true; ut.src=utu+"adagent/js/uta.js"; s.parentNode.insertBefore(ut,s);
+})();
+</script>
+<noscript><img src="https://sit.gentags.net/site/img?site=1351" style="border:0" alt="" /></noscript> 
 
-    <!--正在登录的气泡-->
-    <div class="toast" id="loading_toast"><img src="https://id.oppo.com/resources/images_wap/ico_loading_s.png"  class="loading_pic"/>正在登录...</div>
-<input type="hidden" value="" id="needCaptcha"/>
-<input type="hidden" value='' id="getCaptchaJs"/>
-<input type="hidden" value='' id="captchaResult"/>
-<input type="hidden" value="/login?type=1" id="loginUrl"/>
-<input type="hidden" value="/captcha" id="captchaUrl"/>
-<input type="hidden" value="/account/profile?type=1" id="profileUrl"/>
+<!--听云监测-->
+<script src="//shopfs.myoppo.com/cn/lib/tingyun-rum.js?20170525134822"></script>
 
-<input type="hidden" value=""  id="requestKey_0"/>
-<input type="hidden" value=""  id="requestKey_1"/>
-<input type="hidden" value=""  id="requestKey_2"/>
-<input type="hidden" id="dlg_id"/>
-<div class="mask" id="mask"></div>
-
-<script type="text/javascript" src="cart.html"></script>
-<script type="text/javascript" src="cart.html"></script>
-<script src="https://id.oppo.com/resources/js/jquery-1.9.1.min.js" ></script>
-<script src="https://id.oppo.com/resources/js/jquery-md5-min.js" ></script>
-<script src="https://id.oppo.com/resources/js/login.js?r=20170822" ></script>
-</body>
+<script type="text/javascript">
+$(function(){
+  $("body").on("click",".oppo-tj",function(){
+    if (typeof $(this).data('tj') != 'undefined' && typeof _optj != 'undefined') {
+      var tj = $(this).data('tj');
+      var tjs = tj.split("|");
+      _optj.push(['_trackEvent', tjs[0], tjs[1], tjs[2], tjs[3]]);
+    };
+  });
+});
+</script>
+  </body>
 </html>
+

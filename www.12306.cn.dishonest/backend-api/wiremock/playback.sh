@@ -1,0 +1,1 @@
+java -jar ./bin/wiremock-standalone-2.23.2.jar --port 3000 --verbose --root-dir playback
