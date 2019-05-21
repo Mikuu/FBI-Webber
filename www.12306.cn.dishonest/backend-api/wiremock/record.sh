@@ -1,0 +1,1 @@
+java -jar ./bin/wiremock-standalone-2.23.2.jar --port 3000 --verbose --proxy-all="https://kyfw.12306.cn" --record-mappings --root-dir=recording
