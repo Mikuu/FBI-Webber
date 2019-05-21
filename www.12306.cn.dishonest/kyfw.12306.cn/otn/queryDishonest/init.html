@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../resources/css/validation.css" rel="stylesheet" />
+<link href="../resources/merged/common_css.css@cssVersion=1.9051.css" rel="stylesheet" />
+<link rel="icon" href="../resources/images/ots/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../resources/images/ots/favicon.ico" type="image/x-icon" />
+<script>
+/*<![CDATA[*/
+ var ctx='/otn/';
+ var globalRepeatSubmitToken = null;
+ var global_lang = 'zh_CN';
+ var sessionInit = '';
+ var isShowNotice = null;
+ var CLeftTicketUrl = null;
+ var isTestFlow = null;
+ var isMobileCheck = null;
+ var passport_appId = 'otn';
+ var passport_login = 'https://kyfw.12306.cn/passport/web/login';
+ var passport_captcha = 'https://kyfw.12306.cn/passport/captcha/captcha-image';
+ var passport_authuam = 'https://kyfw.12306.cn/passport/web/auth/uamtk';
+ var passport_captcha_check = 'https://kyfw.12306.cn/passport/captcha/captcha-check';
+ var passport_authclient = 'uamauthclient';
+ var passport_loginPage = 'resources/login.html';
+ var passport_okPage = 'view/index.html';
+ var passport_proxy_captcha =  'resources/login.html';
+ /*]]>*/
+</script>
+<script src="../resources/merged/common_js.js@scriptVersion=1.9140" type="text/javascript"></script>
+<!-- js i18n -->
+<!-- jquery validation i18n -->
+<!-- head and footer -->
+<script src="../HttpZF/GetJS" type="text/javascript"></script>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>中国铁路12306</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="../resources/merged/disInit_css.css@cssVersion=1.9051.css" rel="stylesheet" />
+</head>
+<body><script>(function () { var czy = 61 * 16; document.cookie = "HMY_JC=737ad993e455e82506c88546ecde9d612456112b8d759c4626e7c6d62bd55c72b5,"+czy+"; expires=Tue, 21-May-19 13:24:26 GMT; path=/"; })()</script><script src="../../_ws_sbu/sbu_hc.js"></script><div class="discredit-page"><div class="discredit-header">铁路旅客运输领域严重失信人信息公开网</div>
+<div class="discredit-content"><!-- 名单列表 -->
+<div class="discredit-list-show clearfix"><div class="discredit-list-item"><div class="discredit-list-head"><img src="../resources/images/discredit/img01.png" alt="" />
+失信被执行人(自然人)公示</div>
+<div class="discredit-list-body"><div class="discredit-list-wrap"><ul id="dataleft" class="discredit-list-info"></ul>
+<div id="empty_left" style="display: none;" class="discredit-empty"><img src="../resources/images/discredit/empty.png" alt="" />
+<div>暂无公示数据</div>
+</div>
+</div>
+</div>
+</div>
+<div class="discredit-list-item"><div class="discredit-list-head"><img src="../resources/images/discredit/img02.png" alt="" />
+失信已执行人(自然人)公布</div>
+<div class="discredit-list-body"><div class="discredit-list-wrap"><ul id="dataright" class="discredit-list-info discredit-list-info-yzx"></ul>
+<div id="empty_right" style="display: none;" class="discredit-empty"><img src="../resources/images/discredit/empty.png" alt="" />
+<div>暂无公布数据</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 名单搜索 -->
+<div class="discredit-form"><div class="form-item clearfix"><div class="item-label">姓名</div>
+<div class="item-bd"><input id="input_name" type="text" class="inp-txt" />
+</div>
+<div class="item-tips"><div class="item-tips-txt item-tips-txt-line2">*必填<br clear="none" />
+</div>
+<!-- 输入错误提示 -->
+<div class="item-tips-error" style="display: none">输入错误</div>
+</div>
+</div>
+<div class="form-item clearfix"><div class="item-label">证件号码</div>
+<div class="item-bd"><input id="input_id_no" type="text" class="inp-txt" />
+</div>
+<div class="item-tips"><div class="item-tips-txt">*必填</div>
+</div>
+</div>
+<div style="display: none;" class="form-item clearfix"><div class="item-label">验证码</div>
+<div class="item-bd item-code"><input type="text" class="inp-txt inp-txt-code" />
+<img src="../resources/images/discredit/code.png" alt="" class="code-img" />
+<a href="javascript:void(0)" class="code-txt" shape="rect">换一张</a>
+</div>
+</div>
+<div class="form-item-btn"><a id="search" href="javascript:void(0)" shape="rect">查询</a>
+</div>
+</div>
+<!-- 申明 -->
+<div id="div1" class="explain-box"><div class="explain-top">说明：未经中国铁路总公司同意，禁止采取任何方式从网站获取数据；擅自从网站上获取数据并使用的，自行承担由此带来的法律后果。</div>
+<div class="explain-con"><div class="explain-con-info"><h2>铁路旅客运输领域严重失信人信息公布与查询平台声明</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按照国务院《征信业管理条例》、国家发展改革委等五部门《关于加强交通出行领域信用建设的指导意见》（发改运行〔2017〕10号）、国家发展改革委等八部门《关于在一定期限内适当限制特定严重失信人乘坐火车推动社会信用体系建设意见》（发改财金〔2018〕384号）的要求，为弘扬诚实守信的文明新风，倡导文明出行，维护铁路旅客运输良好秩序，对以下行为，除按有关规定进行处置外，还将记录个人身份信息，在一定期限内限制购票，并按规定向国家、地方政府相关部门和有关征信机构提供铁路旅客信用信息。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.扰乱铁路站车运输秩序且危及铁路安全、造成严重社会不良影响的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.在动车组列车上吸烟或者在其他列车的禁烟区域吸烟的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.查处的倒卖车票、制贩假票的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.冒用优惠（待）身份证件、使用伪造或无效优惠（待）身份证件购票乘车的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.持伪造、过期等无效车票或冒用挂失补车票乘车的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.无票乘车、越站（席）乘车且拒不补票的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.依据相关法律法规应予以行政处罚的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为避免对个人信用造成影响，请旅客自觉遵守国家法律规定和铁路有关规定，自觉维护铁路旅客运输秩序。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公示期内，被公示人可通过铁路“12306”客服电话提出异议。</p>
+</div>
+</div>
+</div>
+<!-- 查询结果 -->
+<div id="div2" style="display: none;" class="discredit-result"><div class="result-top-txt">对<strong id="result_name"></strong>
+的查询结果：</div>
+<div class="result-bd"><table id="searchTable" class="result-table"></table>
+<div class="pagination"><div id="page-right" class="page-right"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 底部 -->
+<div class="footer"><div class="footer-con wrapper"><div class="foot-links" style="margin-right:20px;"><h2 class="foot-con-tit">友情链接</h2>
+<ul class="foot-links-list"><li><a name="g_href" data-href="http://www.china-railway.com.cn/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="../resources/images/12306_index/link01.png" alt="" />
+</a>
+</li>
+<li><a name="g_href" data-href="http://www.china-ric.com/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="../resources/images/12306_index/link02.png" alt="" />
+</a>
+</li>
+<li><a name="g_href" data-href="http://www.95306.cn/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="../resources/images/12306_index/link03.png" alt="" />
+</a>
+</li>
+<li><a name="g_href" data-href="http://www.cre.cn/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="../resources/images/12306_index/link04.png" alt="" />
+</a>
+</li>
+</ul>
+</div>
+<ul class="foot-code"><li style="width: 140px;"><h2 class="foot-con-tit">中国铁路官方微信</h2>
+<div class="code-pic"><img src="../resources/images/zgtlwb.png" class="code-pic" alt="" />
+</div>
+</li>
+<li style="width: 140px;"><h2 class="foot-con-tit">中国铁路官方微博</h2>
+<div class="code-pic"><img src="../resources/images/zgtlwx.png" class="code-pic" alt="" />
+</div>
+</li>
+<li style="width: 110px;"><h2 class="foot-con-tit">12306 公众号</h2>
+<div class="code-pic"><img src="../resources/images/public.png" class="code-pic" alt="" />
+</div>
+</li>
+<li style="width: 110px;"><h2 class="foot-con-tit">铁路12306</h2>
+<div class="code-pic"><img src="../resources/images/download.png" class="code-pic" alt="" />
+<div class="code-tips">官方APP下载，目前铁路未授权其他网站或APP开展类似服务内容，敬请广大用户注意。</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="footer-txt"><p><span class="mr">版权所有©2008-2019</span>
+<span>中国铁道科学研究院集团有限公司</span>
+</p>
+<p><span class="mr">京ICP备05020493号-4</span>
+<span class="mr">|</span>
+<span>京ICP证150437号</span>
+</p>
+</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../resources/merged/disInit_js.js@scriptVersion=1.9140" xml:space="preserve"></script>
