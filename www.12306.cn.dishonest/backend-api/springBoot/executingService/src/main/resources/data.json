@@ -1,0 +1,28 @@
+{
+  "info": [
+    {
+      "check_flag": "2",
+      "flag2": "在动车组列车上吸烟或者在其他列车的禁烟区域吸烟的。",
+      "passenger_id_no": "330602********2512",
+      "passenger_id_type": "1",
+      "passenger_name": "特朗普",
+      "start_date": "20190215"
+    },
+    {
+      "check_flag": "2",
+      "flag2": "在动车组列车上吸烟或者在其他列车的禁烟区域吸烟的。",
+      "passenger_id_no": "652421********3712",
+      "passenger_id_type": "1",
+      "passenger_name": "山本五十六",
+      "start_date": "20181212"
+    },
+    {
+      "check_flag": "2",
+      "flag2": "扰乱铁路站车运输秩序且危及铁路安全、造成严重社会不良影响的。",
+      "passenger_id_no": "230222********2922",
+      "passenger_id_type": "1",
+      "passenger_name": "希特勒",
+      "start_date": "20181212"
+    }
+  ]
+}

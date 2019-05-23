@@ -1,0 +1,14 @@
+---
+server:
+  port: 8001
+  servlet:
+    contextPath: /dishonest-info/executed
+---
+spring:
+  application:
+    name: dishonest-executedService
+  profiles: default
+---
+logging:
+  level:
+    root: INFO
