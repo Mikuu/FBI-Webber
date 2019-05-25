@@ -1,0 +1,20 @@
+---
+server:
+  port: 8000
+  servlet:
+    contextPath: /otn/queryDishonest
+---
+spring:
+  application:
+    name: dishonest-bffService
+  profiles: default
+---
+logging:
+  level:
+    root: INFO
+---
+executed:
+  url: http://localhost:8001/dishonest-info/executed/query
+---
+executing:
+  url: http://localhost:8002/dishonest-info/executing/query
